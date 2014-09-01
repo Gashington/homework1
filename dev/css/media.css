@@ -1,0 +1,107 @@
+@media only screen and (max-width: 960px) {
+    .header,
+    .sidebar,
+    .footer {
+        float: none;
+        width: 100%;
+    }
+    .header {
+        margin: 0;
+        padding: 0 5% 30px;
+    }
+    .sidebar {
+        padding: 0 0 30px 0;
+    }
+    main {
+        width: 100%;
+        margin: 0;
+    }
+    .footer  {
+        margin: 0;
+        text-align: center;
+    }
+    .logo {
+        text-align: center;
+    }
+    .sidebar__item-item0 {
+        overflow: hidden;
+    }
+    .sidebar__item-item0:before,
+    .sidebar__item-item2:before,
+    .sidebar__item-item0:after,
+    .sidebar__item-item2:after {
+        width: 100%;
+    }
+    .main-nav__item {
+        display: inline-block;
+        vertical-align: top;
+        width: 24%;
+        text-align: center;
+    }
+
+    .flickr {
+        width: 230px;
+        margin: 0 auto;
+    }
+    .flickr__title {
+        text-align: center;
+    }
+    .twitter {
+        text-align: left;
+    }
+    .twitter__title {
+        text-align: center;
+    }
+    .twitter__list {
+        overflow: hidden;
+    }
+    .twitter__item {
+        float: left;
+        width: 50%;
+        padding: 0 5%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    .main__item-item0 {
+        margin: 0;
+    }
+    #bvs-slider {
+        display: none;
+    }
+    .contacts-form {
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .blog__item__img,
+    .blog__item__preview {
+        width: 100%;
+    }
+    .blog__item__img {
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+    .blog__item__preview {
+        margin: 0;
+        padding: 0 5%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main-nav__item {
+        float: none;
+        display: inline-block;
+        width: 49%;
+        padding: 5%;
+        text-align: center;
+    }
+    .contacts-form {
+        width: 220px;
+        margin: 0 auto;
+    }
+    .contacts-form__item--clear {
+        padding: 0;
+        text-align: center;
+    }
+}
